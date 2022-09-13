@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    height: 70px;
+    flex-shrink: 0;
+    background: #272822;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 2px soloid #333;
+    padding: 0 15px;
+    gap: 15px;
+    box-sizing: border-box;
+}
+.camera{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50px;
+    z-index: 11111;
+
+
+
+}
+
+/* .btn {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 4px;
+    color: white;
+    background: rgb(196, 55, 55);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+} */
